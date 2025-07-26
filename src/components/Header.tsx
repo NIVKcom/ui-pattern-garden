@@ -130,8 +130,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <Link 
-              to="/" 
+            <a 
+              href="https://www.nivk.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
               className="flex items-center hover:opacity-80 transition-opacity"
             >
               <img 
@@ -139,7 +141,7 @@ const Header = () => {
                 alt="NIVK Logo" 
                 className="h-16 w-auto"
               />
-            </Link>
+            </a>
           </div>
           
           {/* Liquid Glass Navigation */}
@@ -167,8 +169,10 @@ const Header = () => {
                 <div className="flex flex-col space-y-8 mt-8">
                   {/* Logo in mobile menu */}
                   <div className="flex justify-center">
-                    <Link 
-                      to="/" 
+                    <a 
+                      href="https://www.nivk.com/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
                       onClick={() => setIsOpen(false)}
                       className="hover:opacity-80 transition-opacity"
                     >
@@ -177,7 +181,7 @@ const Header = () => {
                         alt="NIVK Logo" 
                         className="h-12 w-auto"
                       />
-                    </Link>
+                    </a>
                   </div>
                   
                   {/* Navigation items */}
